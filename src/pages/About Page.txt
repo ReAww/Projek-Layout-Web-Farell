@@ -1,0 +1,2 @@
+page adalah tempat saya menyimpan
+ halaman atau path dari si navigasi itu sendiri
