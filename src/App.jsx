@@ -6,10 +6,10 @@ import NavbarCompont from "./components/NavbarCompont"
 // import FooterCompont from "./components/FooterCompont"
 
 import HomePage from "./pages/HomePage"
-import KelasPage from "./pages/KelasPage"
-import TestimonialPage from "./pages/TestimonialPage"
-import FaqPage from "./pages/FaqPage"
+import MarketPage from "./pages/MarketPage"
 import SyaratKetenPage from "./pages/SyaratKetenPage"
+import ExploitPage from "./pages/ExploitPage"
+import TestimonialPage from "./pages/TestimonialPage"
 
 
 export default function App () {
@@ -19,11 +19,11 @@ export default function App () {
 
         <Routes> 
           {/* ini adalah router dom, untuk membuat navigasi  */}
-            <Route path="/" Component={HomePage}/>
-            <Route path="/kelas" Component={KelasPage}/>
+            <Route path="/home" Component={HomePage}/>
+            <Route path="/exploit" Component={ExploitPage}/>
+            <Route path="/market" Component={MarketPage}/>
             <Route path="/testimonial" Component={TestimonialPage}/>
-            <Route path="/faq" Component={FaqPage}/>
-            <Route path="/syaratken" Component={SyaratKetenPage}/>
+            <Route path="/syaratketen" Component={SyaratKetenPage}/>
         </Routes>
 
         {/* <FooterCompont />  */}

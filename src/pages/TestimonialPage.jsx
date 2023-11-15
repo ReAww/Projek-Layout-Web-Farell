@@ -1,4 +1,6 @@
-const TestimonialPage = () => {
+
+
+function TestimonialPage() {
   return (
     <div>TestimonialPage</div>
   )

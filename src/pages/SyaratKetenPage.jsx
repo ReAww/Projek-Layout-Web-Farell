@@ -1,4 +1,6 @@
-const SyaratKetenPage = () => {
+
+
+function SyaratKetenPage() {
   return (
     <div>SyaratKetenPage</div>
   )
