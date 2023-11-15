@@ -3,7 +3,7 @@
 import { Routes, Route} from "react-router-dom"
 
 import NavbarCompont from "./components/NavbarCompont"
-// import FooterCompont from "./components/FooterCompont"
+import FooterCompont from "./components/FooterCompont"
 
 import HomePage from "./pages/HomePage"
 import MarketPage from "./pages/MarketPage"
@@ -26,7 +26,7 @@ export default function App () {
             <Route path="/syaratketen" Component={SyaratKetenPage}/>
         </Routes>
 
-        {/* <FooterCompont />  */}
+        <FooterCompont /> 
     </div>
   )
 }
