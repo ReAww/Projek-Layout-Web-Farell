@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import ReAwwImage from "../assets/img/ReAww.jpg";
-import HeroImage from "../assets/img/hero.png";
+// import HeroImage from "../assets/img/hero.png";
 
 import { kelasTerbaru, dataSwiper } from "../data/index";
 import { useNavigate } from "react-router-dom";
