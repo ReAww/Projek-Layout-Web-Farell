@@ -69,7 +69,7 @@ export default function HomePage() {
                     <i className={kelas.star5}></i>
                   </div>
                   <h5 className="fw-bold px-3">{kelas.title}</h5>
-                  <h7 className="subtitle fw-bold px-3">{kelas.subtitle}</h7>
+                  <h6 className="subtitle fw-bold px-3">{kelas.subtitle}</h6>
                   <div className="ket d-flex justify-content-between align-items-center px-3 pb-3 ">
                     <p className="m-0 text-primary fw-bold">{kelas.price}</p>
                     <button className="btn btn-danger rounder-1">
@@ -84,7 +84,7 @@ export default function HomePage() {
             <Col className="text-center">
               <button
                 className="btn btn-success rounded-5 btn-lg"
-                onClick={() => navigate("/exploit")}
+                onClick={() => navigate("/market")}
               >
                 Lihat Semua Script
                 <i className="fa-solid fa-chevron-right ms-2"></i>

@@ -38,13 +38,13 @@ const NavbarCompont = () => {
                 <img className="imgnavbar" src="ReAww.jpg" alt="" />
               </a>
             </div>
-            <a className="navbrand" href="/home">
+            <a className="navbrand" href="/">
               <h1 className="fw-bold">ReAwwWeb</h1>
             </a>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mx-auto">
+            <Nav className="m-auto">
               {navLinks.map((link) => {
                 return (
                   <div className="nav-link" key={link.id}>

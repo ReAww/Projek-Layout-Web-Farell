@@ -9,7 +9,7 @@ import "./dist/css/main.css";
 // sama seperti mengimport ReactDOM
 import { BrowserRouter } from "react-router-dom";
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+ReactDOM.createRoot(document.getElementById("roots")).render(
   <React.StrictMode>
     <BrowserRouter>
       <App />
